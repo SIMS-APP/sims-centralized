@@ -1,5 +1,3 @@
-# CliniqTV - Hospital Queue Management & Ad Display System
-
 A complete **Android TV application** for hospital waiting areas that displays rotating advertisements (images/videos) alongside the CliniqTV queue management system using Picture-in-Picture (PIP) mode.
 
 ## System Architecture
