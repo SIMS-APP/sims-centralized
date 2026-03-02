@@ -1,33 +1,4 @@
 A complete **Android TV application** for hospital waiting areas that displays rotating advertisements (images/videos) alongside the CliniqTV queue management system using Picture-in-Picture (PIP) mode.
-
-## System Architecture
-
-```
-┌──────────────────────┐
-│   NeonDB (Postgres)  │
-│   Serverless DB      │
-└──────────┬───────────┘
-           │
-┌──────────▼───────────┐
-│  Next.js Admin Panel │
-│  (API Routes + UI)   │
-│  • Upload Media      │
-│  • Schedules         │
-│  • Settings          │
-│  • Dashboard         │
-│  • REST API for TV   │
-└──────────┬───────────┘
-           │ HTTP API
-┌──────────▼───────────┐
-│  Flutter TV App      │
-│  (Android TV APK)    │
-│  • Ad Display        │
-│  • PIP Mode          │
-│  • D-pad Navigation  │
-│  • CliniqTV Launch   │
-└──────────────────────┘
-```
-
 ## Components
 
 ### 1. Flutter Android TV App (`/`)
